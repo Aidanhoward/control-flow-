@@ -20,4 +20,4 @@ pin = input("please choose a 4 digit Personal Identification Number: ")
 
 print("\nThamk you", first_name + ", we see that you set your PIN to",pin)
 
-print("\nWould you like to make a transaction thriugh our atuomated teller machine")
+print("\nWould you like to make a transaction through our atuomated teller machine")
