@@ -35,13 +35,16 @@ if atm == "YES":
         balance = 69420
         print("\nYour balance: $" + str(balance))
          # ask users what type of transaction they want - withdrawal - deposit
-        type_of_transaction = input("\nWould you like to make a withdrawal or a deposit\nW = withdrawal - D = deposit: ").lower()
+        type_of_transaction = input("\nWould you like to make a withdrawal, deposit, or check your balance\nW = withdrawal - D = deposit: ").lower()
         if type_of_transaction == "w":
             withdrawal_amount = int(input("Enter amount of withdrawal:"))
             balance = balance - withdrawal_amount
             print("Your new balance is: $" + str(balance))
             
-            
+     elif: type_of_transaction == "d": 
+        deposit_amount = int(input("Enter amount of deposit:"))
+            balance = balance + deposit_amount
+            print("Your new balance is: $" + str(balance))
 
     else:
         print("\nSorry",first_name,last_name,"your PIN doesn't match our records")
