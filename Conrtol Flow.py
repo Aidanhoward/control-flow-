@@ -45,6 +45,9 @@ if atm == "YES":
         deposit_amount = int(input("Enter amount of deposit:"))
             balance = balance + deposit_amount
             print("Your new balance is: $" + str(balance))
+            
+    else:
+        print("your current balance is $" + str(balance))
 
     else:
         print("\nSorry",first_name,last_name,"your PIN doesn't match our records")
